@@ -1,0 +1,37 @@
+body{
+  background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2039b9, #ff0033);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2039b9, #ff0033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+font-family: Lato;
+}
+h1, p {
+  font-family: Lato;
+}
+
+.form-container{
+  background-color: black;
+  color:white;
+  padding:3vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.input-field{
+  display: flex;
+  justify-content: center;
+}
+input{
+  border:1px solid white;
+  background-color: black;
+  color:white;
+  font-weight:bolder;
+  width:70%;
+  height:30px;
+}
+
+button{
+  width:20%;
+  
+}
